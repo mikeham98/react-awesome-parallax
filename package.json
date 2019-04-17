@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack --watch --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d",
+    "publish": "npm run build && npm run deploy && npm publish"
   },
   "main": "build/index.js",
   "peerDependencies": {
