@@ -46,7 +46,6 @@ export default class Parallax extends React.Component {
             speed = 10;
         }
         speed = Math.round(speed);
-        console.log('speed', speed);
         speed = (1 - (10 - speed) / 10) * -1;
         return speed;
     }
