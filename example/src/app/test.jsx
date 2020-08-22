@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Parallax from "../src/components/Parallax";
+import Parallax from "react-awesome-parallax";
 
-class App extends Component {
+class Test extends Component {
     render() {
         return (
             <div style={{height: '600vh', backgroundColor: 'green'}}>
@@ -65,4 +65,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Test;
